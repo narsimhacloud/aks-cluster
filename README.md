@@ -8,7 +8,7 @@ step-01: Introduction
 Step-02: Create AKS Cluster
    1.Create Kubernetes Cluster
 Basics
-            Subscription: StackSimplify-Paid-Subscription
+            Subscription: Subscription
             Resource Group: Creat New: aks-rg1
             Cluster preset configuration: Standard
             Kubernetes Cluster Name: aksdemo1
@@ -107,7 +107,7 @@ kubectl get service
 http://<External-IP-from-get-service-output>
 
 
-Step-08: clleanup.
+Step-08:cleanup.
 # Delete Applications
 kubectl delete -f kube-manifests/
 
